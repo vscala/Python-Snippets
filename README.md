@@ -15,3 +15,6 @@ Decorator to time how long it takes to execute a function
 
 ## Consecutive Squares - consecutiveSquares.py
 Naive and math solutions to computing the first n squares
+
+## Trie - trie.py
+Implementation of trie data strucutre
