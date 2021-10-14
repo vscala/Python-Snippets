@@ -7,7 +7,7 @@ Functions to create a progress bar or progress percentage
 ## Basic DFS and BFS Searching - searching.py
 Simple iterative implementations of DFS and BFS on a graph
 
-## GCD and LCM using Euclidean Algorithm - euclideanalgorithm.py
+## GCD and LCM using Euclidean Algorithm - euclideanAlgorithm.py
 Efficient GCD and LCM using Euclidean Algorithm
 
 ## Function Performance - performance.py
