@@ -1,8 +1,8 @@
 class SubscriptableSet:
 	'''
-		Set with the property that elements can be subscribed to.
+		Set with the property that elements can be subscripted to.
 		
-			- Note: Order is not gaurenteed
+			- Note: Order is not guaranteed
 	'''
 
 	def __init__(self, values=None):
