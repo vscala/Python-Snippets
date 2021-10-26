@@ -38,6 +38,14 @@ class SubscriptableSet:
 	
 	def __iter__(self):
 		return iter(self.values)
+	
+	def __contains__(self, key):
+		return key in self.position
+	
+	def pop(self, key=-1):
+		out = self.values[key]
+		self.remove(out)
+		return out
 		
 
 if __name__ == "__main__":
@@ -45,3 +53,5 @@ if __name__ == "__main__":
 	print(ss[0], ss[::-1])
 	del ss[0]
 	print(ss[::])
+	print(ss.pop())
+	print(ss)
