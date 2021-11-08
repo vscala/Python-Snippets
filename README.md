@@ -13,8 +13,10 @@ Efficient GCD and LCM using Euclidean Algorithm
 ## Function Performance - performance.py
 Decorator to time how long it takes to execute a function
 
-## Consecutive Squares - consecutiveSquares.py
-Naive and math solutions to computing the first n squares
+## Sequences - sequences.py
+- Sequence of first n consecutive squares
+- Fibonacci sequence
+- Catalan numbers
 
 ## Subscriptable Set - subscriptableSet.py
 Implementation of a set data structure with the additional property of being subscriptable
