@@ -25,3 +25,24 @@ Implementation of a set data structure with the additional property of being sub
 
 ## Trie - trie.py
 Implementation of trie data strucutre
+
+# Others
+Other Algorithms / Data strucutres
+
+## Sorted containers
+http://www.grantjenks.com/docs/sortedcontainers/
+- SortedList
+- SortedSet
+- SortedDict
+
+## Collections
+https://docs.python.org/3/library/collections.html
+- namedtuple
+- deque
+- ChainMap
+- Counter
+- OrderedDict
+- defaultdict
+- UserDict
+- UserList
+- UserString
