@@ -20,6 +20,9 @@ Decorator to time how long it takes to execute a function
 - Fibonacci sequence
 - Catalan numbers
 
+## Partitions - partition.py
+Generate all (ordered) partitions of a list
+
 ## Subscriptable Set - subscriptableSet.py
 Implementation of a set data structure with the additional property of being subscriptable
 
