@@ -1,6 +1,20 @@
 # Python-Snippets
 A random assortment of python code snippets
 
+## Data Strucutres 
+
+### Subscriptable Set - subscriptableSet.py
+Implementation of a set data structure with the additional property of being subscriptable
+
+### Trie - trie.py
+Implementation of trie data strucutre
+
+### Disjoint Set - disjointSet.py
+Implementation of disjoint set data strucutre
+
+### Graph - graph.py
+Implementation of graph data strucutre
+
 ## Progress bar / percent - progress.py
 Functions to create a progress bar or progress percentage
 
@@ -22,12 +36,6 @@ Decorator to time how long it takes to execute a function
 
 ## Partitions - partition.py
 Generate all (ordered) partitions of a list
-
-## Subscriptable Set - subscriptableSet.py
-Implementation of a set data structure with the additional property of being subscriptable
-
-## Trie - trie.py
-Implementation of trie data strucutre
 
 # Others
 Other Algorithms / Data strucutres
