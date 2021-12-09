@@ -9,10 +9,12 @@ class Trie:
 
 	def insert(self, word: str) -> None:
 		reduce(dict.__getitem__, word, self.trie)[True] = True
-		
+	
+	# Works but modifies the trie 
 	def search(self, word: str) -> bool:
 		return True in reduce(dict.__getitem__, word, self.trie)
     
+	# NOT WORKING (searching for a word will add the searched word to the trie as a prefix)
 	def startsWith(self, prefix: str) -> bool:
 		return bool(reduce(dict.__getitem__, prefix, self.trie))
 		
@@ -26,6 +28,7 @@ def testTrie():
 	assert not (test.search("yol"))
 	assert not (test.startsWith("to"))
 	assert not (test.search("to"))
+	assert not (test.startsWith("t")) # FAILS
 	assert not (test.search(""))
 	assert (test.startsWith(""))
 	
