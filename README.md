@@ -1,5 +1,5 @@
 # Python-Snippets
-A random assortment of python code snippets
+Useful python algorithms and data structures
 
 ## Data Strucutres 
 
