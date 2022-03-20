@@ -14,8 +14,8 @@ class DisjointSet:
 			self.parent[element] = self.find(self.parent[element])
 		return self.parent[element]
 	
-	# unions two elements together
-	def union(self, a, b):
+	# unions two sets A, B where (a in A) and (b in B)
+	def union(self, a, b) -> None:
 		parenta, parentb = self.find(a), self.find(b)
 		if parenta != parentb:
 			if self.rank[parenta] >= self.rank[parentb]:
@@ -25,6 +25,10 @@ class DisjointSet:
 				self.parent[parenta] = parentb
 				self.rank[parentb] += 1
 	
+	# returns if two elements are in the same set
+	def same(self, a, b) -> bool:
+		return self.find(a) == self.find(b)
+	
 if __name__ == "__main__":
 	ds = DisjointSet()
 	data = [(8,2), (5,3), (3,4), (2, 8)]
@@ -32,7 +36,3 @@ if __name__ == "__main__":
 		ds.union(a, b)
 	for i in range(9):
 		print(ds.find(i))
-			
-			
-			
-
