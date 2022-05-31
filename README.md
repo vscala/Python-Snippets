@@ -37,23 +37,6 @@ Decorator to time how long it takes to execute a function
 ## Partitions - partition.py
 Generate all (ordered) partitions of a list
 
-# Others
-Other Algorithms / Data strucutres
+## Patience Sorting - patience.py
+Algorithm for finding the longest increasing subsequence
 
-## Sorted containers
-http://www.grantjenks.com/docs/sortedcontainers/
-- SortedList
-- SortedSet
-- SortedDict
-
-## Collections
-https://docs.python.org/3/library/collections.html
-- namedtuple
-- deque
-- ChainMap
-- Counter
-- OrderedDict
-- defaultdict
-- UserDict
-- UserList
-- UserString
